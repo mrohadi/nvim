@@ -19,6 +19,8 @@ return require("packer").startup(function()
   use "hrsh7th/nvim-compe";
   use "hrsh7th/vim-vsnip";
   use { "nvim-treesitter/nvim-treesitter", run = ":TSUpdate" };
+  use "nvim-treesitter/playground";
+  use "p00f/nvim-ts-rainbow";
   use {
   'glepnir/galaxyline.nvim',
     branch = 'main',
