@@ -11,6 +11,7 @@ vim.o.ruler = true;
 vim.o.cmdheight = 2;
 vim.o.mouse = "a";
 vim.o.splitbelow = true;
+vim.o.termguicolors = true;
 vim.o.splitright = true;
 --vim.o.t_Co = "256";
 vim.o.conceallevel = 0;

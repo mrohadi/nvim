@@ -1,6 +1,12 @@
 require("plugins");
 require("keymappings");
-require("nv-compe");
-require("colorscheme");
-require("lsp");
 require("settings");
+require("colorscheme");
+
+-- Plugins 
+require("nv-compe");
+require("nv-galaxyline");
+require("nv-colorizer");
+
+-- LSP
+require("lsp");
