@@ -69,22 +69,90 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["galaxyline.nvim"] = {
+    loaded = true,
+    path = "/home/debujos/.local/share/nvim/site/pack/packer/start/galaxyline.nvim"
+  },
+  ["lspsaga.nvim"] = {
+    loaded = true,
+    path = "/home/debujos/.local/share/nvim/site/pack/packer/start/lspsaga.nvim"
+  },
+  ["nvcode-color-schemes.vim"] = {
+    loaded = true,
+    path = "/home/debujos/.local/share/nvim/site/pack/packer/start/nvcode-color-schemes.vim"
+  },
+  ["nvim-bqf"] = {
+    loaded = true,
+    path = "/home/debujos/.local/share/nvim/site/pack/packer/start/nvim-bqf"
+  },
+  ["nvim-colorizer.lua"] = {
+    loaded = true,
+    path = "/home/debujos/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua"
+  },
   ["nvim-compe"] = {
     loaded = true,
     path = "/home/debujos/.local/share/nvim/site/pack/packer/start/nvim-compe"
+  },
+  ["nvim-dap"] = {
+    loaded = true,
+    path = "/home/debujos/.local/share/nvim/site/pack/packer/start/nvim-dap"
+  },
+  ["nvim-jdtls"] = {
+    loaded = true,
+    path = "/home/debujos/.local/share/nvim/site/pack/packer/start/nvim-jdtls"
+  },
+  ["nvim-lightbulb"] = {
+    loaded = true,
+    path = "/home/debujos/.local/share/nvim/site/pack/packer/start/nvim-lightbulb"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
     path = "/home/debujos/.local/share/nvim/site/pack/packer/start/nvim-lspconfig"
   },
+  ["nvim-lua-guide"] = {
+    loaded = true,
+    path = "/home/debujos/.local/share/nvim/site/pack/packer/start/nvim-lua-guide"
+  },
   ["nvim-tree.lua"] = {
     loaded = true,
     path = "/home/debujos/.local/share/nvim/site/pack/packer/start/nvim-tree.lua"
+  },
+  ["nvim-treesitter"] = {
+    loaded = true,
+    path = "/home/debujos/.local/share/nvim/site/pack/packer/start/nvim-treesitter"
+  },
+  ["nvim-web-devicons"] = {
+    loaded = true,
+    path = "/home/debujos/.local/share/nvim/site/pack/packer/start/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = false,
     needs_bufread = false,
     path = "/home/debujos/.local/share/nvim/site/pack/packer/opt/packer.nvim"
+  },
+  ["plenary.nvim"] = {
+    loaded = true,
+    path = "/home/debujos/.local/share/nvim/site/pack/packer/start/plenary.nvim"
+  },
+  ["popup.nvim"] = {
+    loaded = true,
+    path = "/home/debujos/.local/share/nvim/site/pack/packer/start/popup.nvim"
+  },
+  ["quick-scope"] = {
+    loaded = true,
+    path = "/home/debujos/.local/share/nvim/site/pack/packer/start/quick-scope"
+  },
+  ["telescope-media-files.nvim"] = {
+    loaded = true,
+    path = "/home/debujos/.local/share/nvim/site/pack/packer/start/telescope-media-files.nvim"
+  },
+  ["telescope.nvim"] = {
+    loaded = true,
+    path = "/home/debujos/.local/share/nvim/site/pack/packer/start/telescope.nvim"
+  },
+  ["vim-rooter"] = {
+    loaded = true,
+    path = "/home/debujos/.local/share/nvim/site/pack/packer/start/vim-rooter"
   },
   ["vim-vsnip"] = {
     loaded = true,

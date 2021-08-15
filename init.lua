@@ -1,5 +1,6 @@
-require("plugins")
-require("keymappings")
-require("nv-compe")
-require("lsp")
-require("settings")
+require("plugins");
+require("keymappings");
+require("nv-compe");
+require("colorscheme");
+require("lsp");
+require("settings");

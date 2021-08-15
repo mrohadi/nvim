@@ -1,4 +1,4 @@
-vim.o.completeopt = "menuone,noselect"
+vim.o.completeopt = "menuone,noselect";
 
 require'compe'.setup {
   enabled = true;
@@ -26,7 +26,7 @@ require'compe'.setup {
     snippets_nvim = true;
     treesitter = true;
   };
-}
+};
 
 local t = function(str)
   return vim.api.nvim_replace_termcodes(str, true, true, true)
