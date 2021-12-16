@@ -69,17 +69,43 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["barbar.nvim"] = {
+    loaded = false,
+    needs_bufread = false,
+    path = "/home/debujos/.local/share/nvim/site/pack/packer/opt/barbar.nvim"
+  },
+  ["dashboard-nvim"] = {
+    loaded = false,
+    needs_bufread = false,
+    path = "/home/debujos/.local/share/nvim/site/pack/packer/opt/dashboard-nvim"
+  },
+  ["friendly-snippets"] = {
+    loaded = false,
+    needs_bufread = false,
+    path = "/home/debujos/.local/share/nvim/site/pack/packer/opt/friendly-snippets"
+  },
   ["galaxyline.nvim"] = {
     loaded = true,
     path = "/home/debujos/.local/share/nvim/site/pack/packer/start/galaxyline.nvim"
+  },
+  ["gitsigns.nvim"] = {
+    loaded = false,
+    needs_bufread = false,
+    path = "/home/debujos/.local/share/nvim/site/pack/packer/opt/gitsigns.nvim"
   },
   ["lspsaga.nvim"] = {
     loaded = true,
     path = "/home/debujos/.local/share/nvim/site/pack/packer/start/lspsaga.nvim"
   },
   ["nvcode-color-schemes.vim"] = {
-    loaded = true,
-    path = "/home/debujos/.local/share/nvim/site/pack/packer/start/nvcode-color-schemes.vim"
+    loaded = false,
+    needs_bufread = false,
+    path = "/home/debujos/.local/share/nvim/site/pack/packer/opt/nvcode-color-schemes.vim"
+  },
+  ["nvim-autopairs"] = {
+    loaded = false,
+    needs_bufread = false,
+    path = "/home/debujos/.local/share/nvim/site/pack/packer/opt/nvim-autopairs"
   },
   ["nvim-bqf"] = {
     loaded = true,
@@ -92,6 +118,10 @@ _G.packer_plugins = {
   ["nvim-colorizer.lua"] = {
     loaded = true,
     path = "/home/debujos/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua"
+  },
+  ["nvim-comment"] = {
+    loaded = true,
+    path = "/home/debujos/.local/share/nvim/site/pack/packer/start/nvim-comment"
   },
   ["nvim-compe"] = {
     loaded = true,
@@ -113,6 +143,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/debujos/.local/share/nvim/site/pack/packer/start/nvim-lspconfig"
   },
+  ["nvim-lspinstall"] = {
+    loaded = false,
+    needs_bufread = false,
+    path = "/home/debujos/.local/share/nvim/site/pack/packer/opt/nvim-lspinstall"
+  },
   ["nvim-lua-guide"] = {
     loaded = true,
     path = "/home/debujos/.local/share/nvim/site/pack/packer/start/nvim-lua-guide"
@@ -125,18 +160,22 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/debujos/.local/share/nvim/site/pack/packer/start/nvim-treesitter"
   },
+  ["nvim-ts-autotag"] = {
+    loaded = true,
+    path = "/home/debujos/.local/share/nvim/site/pack/packer/start/nvim-ts-autotag"
+  },
   ["nvim-ts-rainbow"] = {
     loaded = true,
     path = "/home/debujos/.local/share/nvim/site/pack/packer/start/nvim-ts-rainbow"
   },
   ["nvim-web-devicons"] = {
-    loaded = true,
-    path = "/home/debujos/.local/share/nvim/site/pack/packer/start/nvim-web-devicons"
-  },
-  ["packer.nvim"] = {
     loaded = false,
     needs_bufread = false,
-    path = "/home/debujos/.local/share/nvim/site/pack/packer/opt/packer.nvim"
+    path = "/home/debujos/.local/share/nvim/site/pack/packer/opt/nvim-web-devicons"
+  },
+  ["packer.nvim"] = {
+    loaded = true,
+    path = "/home/debujos/.local/share/nvim/site/pack/packer/start/packer.nvim"
   },
   playground = {
     loaded = true,
@@ -146,17 +185,13 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/debujos/.local/share/nvim/site/pack/packer/start/plenary.nvim"
   },
-  ["popup.nvim"] = {
-    loaded = true,
-    path = "/home/debujos/.local/share/nvim/site/pack/packer/start/popup.nvim"
-  },
   ["quick-scope"] = {
     loaded = true,
     path = "/home/debujos/.local/share/nvim/site/pack/packer/start/quick-scope"
   },
-  ["telescope-media-files.nvim"] = {
+  rnvimr = {
     loaded = true,
-    path = "/home/debujos/.local/share/nvim/site/pack/packer/start/telescope-media-files.nvim"
+    path = "/home/debujos/.local/share/nvim/site/pack/packer/start/rnvimr"
   },
   ["telescope.nvim"] = {
     loaded = true,
@@ -169,6 +204,11 @@ _G.packer_plugins = {
   ["vim-vsnip"] = {
     loaded = true,
     path = "/home/debujos/.local/share/nvim/site/pack/packer/start/vim-vsnip"
+  },
+  ["which-key.nvim"] = {
+    loaded = false,
+    needs_bufread = false,
+    path = "/home/debujos/.local/share/nvim/site/pack/packer/opt/which-key.nvim"
   }
 }
 
